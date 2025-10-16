@@ -1,0 +1,146 @@
+# -------------------------
+# OS noise
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Java & build outputs
+# -------------------------
+*.class
+*.log
+*.tmp
+*.swp
+*~
+hs_err_pid*
+replay_pid*
+dump.hprof
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+# Keep Maven Wrapper (commit it for reproducible builds)
+!.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Gradle
+.gradle/
+build/
+# Keep Gradle Wrapper (commit it for reproducible builds)
+!gradle/
+!gradle/wrapper/
+!gradlew
+!gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# -------------------------
+# IDE / Editor files
+# -------------------------
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# -------------------------
+# Test reports & artifacts
+# -------------------------
+# TestNG
+test-output/
+
+# Surefire / Failsafe
+surefire-reports/
+failsafe-reports/
+
+# JUnit-platform default output (some setups)
+junit-report/
+junit-reports/
+
+# Allure
+allure-results/
+allure-report/
+.allure/
+
+# ExtentReports (common locations/patterns)
+extent-report*/
+reports/extent*/
+
+# Cucumber
+cucumber-report*/
+cucumber-html-reports/
+cucumber.json
+cucumber.xml
+
+# Code coverage
+jacoco.exec
+jacoco-report/
+coverage/
+cobertura.ser
+
+# -------------------------
+# Selenium stuff
+# -------------------------
+# If you vendor drivers locally, ignore the folder;
+# prefer WebDriverManager in code to avoid committing binaries.
+drivers/
+*.exe
+*.dll
+
+# Screenshots, videos, attachments generated at runtime
+screenshots/
+screenShots/
+failedScreenshots/
+reports/screenshots/
+reports/images/
+videos/
+
+# -------------------------
+# Config, secrets, env
+# -------------------------
+.env
+.env.*
+*.env
+*.key
+*.keystore
+*.p12
+*.pem
+*.crt
+*.cer
+*.jks
+*.pfx
+
+# Keep sample templates checked in
+!.env.example
+!config.example.properties
+
+# Common app/test config caches
+.cache/
+tmp/
+temp/
+
+# -------------------------
+# Misc tooling
+# -------------------------
+# If you use Node tooling for report HTML, etc. (optional)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker (optional)
+.docker/
+/.metadata/
